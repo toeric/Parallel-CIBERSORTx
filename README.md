@@ -1,4 +1,4 @@
-# Parallel-CIBERSORT
+# Parallel-CIBERSORTx
 
 ## Setting up Environment
 
@@ -25,7 +25,7 @@ cd lib
 make
 ```
 
-### Run Parallel-CIBERSORTx
+## Run Parallel-CIBERSORTx
 ```cpp
 //main.cpp
 
@@ -61,4 +61,7 @@ Actually, we had run bulk data with 10, 600 and 10000 samples to test our pakage
 Since the bulk data with 600 and 10000 samples is too big,
 we just upload bulk data with 10 samples (Mix\_10.txt) to github. 
 
+The output of Parallel-CIBERSORTx would be "CIBERSORTx\_result.txt".
+Each row in the output txt file represents a sample, column represent each cell type.
+The value in the row i and column j represents the cell type proportion of j in sample i. 
 
