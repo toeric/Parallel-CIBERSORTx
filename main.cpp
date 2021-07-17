@@ -1,14 +1,5 @@
-#include <string>
 #include <armadillo>
-#include <iostream>
-#include <fstream>
-
-#include <chrono>
-#include <thread>
-#include <vector>
 #include <string>
-//#include <unistd.h>
-
 #include "lib/CIBERSORTx.h"
 
 int main(int arcg, char *argv[]) {
