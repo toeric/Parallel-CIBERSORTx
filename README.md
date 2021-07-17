@@ -2,7 +2,7 @@
 
 ## Setting up Environment
 
-## Install BLAS and LAPACK
+### Install BLAS and LAPACK
 ```
 apt-get install libblas-dev liblapack-dev
 ```
@@ -48,7 +48,7 @@ int main(int arcg, char *argv[]) {
 	CIBERSORTx model(M, S); 
 	model.dodecomposition(batch, thread_num);
 
-	 return 0;
+	return 0;
 }
 ```
 
