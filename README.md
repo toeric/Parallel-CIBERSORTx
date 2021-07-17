@@ -58,7 +58,7 @@ Run the specific data:
 ```
 
 Actually, we had run bulk data with 10, 600 and 10000 samples to test our pakage.
-Since the bulk data with 600 and 10000 samples is too big,
+Since the bulk data with 600 and 10000 samples are too big,
 we just upload bulk data with 10 samples (Mix\_10.txt) to github. 
 
 The output of Parallel-CIBERSORTx would be "CIBERSORTx\_result.txt".
